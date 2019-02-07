@@ -9,11 +9,13 @@
     android:id="@+id/question_text_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
     android:padding="24dp"/>
 
   <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_vertical"
     android:orientation="horizontal">
 
     <Button
@@ -31,7 +33,7 @@
   </LinearLayout>
 
   <Button
-    android:id="@+id/next-buttoon"
+    android:id="@+id/next_buttoon"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/next_button"
